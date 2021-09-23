@@ -1,0 +1,29 @@
+.left {
+  grid-area: left;
+}
+
+.me__photo {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 500px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.me__desc {
+  text-align: center;
+}
+
+.me__fullname {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.my__proffesion {
+  font-size: 24px;
+}
+
