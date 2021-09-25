@@ -10,9 +10,9 @@
 .wripper {
   color: #fff;
   background: #063146;
-  height: 100vh;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .container {
@@ -22,7 +22,7 @@
   padding-right: 15px;
 
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
   "left right";
   grid-template-columns: 1fr 2fr;
   grid-gap: 100px;
