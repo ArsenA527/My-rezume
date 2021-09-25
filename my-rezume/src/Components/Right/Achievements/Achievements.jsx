@@ -13,9 +13,10 @@ class Achievements extends Component {
 
   render() {
     return (
-      <div>
+      <div className={st.item}>
         <h2 className={st.title}>{this.state.title}</h2>
-        <AchievementsItem />
+        <AchievementsItem title="Курсовая работа (программирование на языке C++) 2017 г." text="Получил грамоту за оригинальное решение и практическое применение на конференции по информатике"/>
+        <AchievementsItem title="Конкурс от МИЭТ 2017 г." text="Получил грамоту за участие в инженерно-технических молодежных спортивных сорвенований «Робофутбол»"/>
       </div>
     );
   }

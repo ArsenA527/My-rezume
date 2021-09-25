@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import st from '../../Right.module.css';
+import styles from './EducationItem.module.css';
 
 const EducationItem = (props) => {
   return (
-    <div>
-
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellat possimus expedita, alias laudantium, magnam ex natus culpa repudiandae eum sed dicta corporis pariatur vero. Debitis earum numquam exercitationem labore!</p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellat possimus expedita, alias laudantium, magnam ex natus culpa repudiandae eum sed dicta corporis pariatur vero. Debitis earum numquam exercitationem labore!</p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellat possimus expedita, alias laudantium, magnam ex natus culpa repudiandae eum sed dicta corporis pariatur vero. Debitis earum numquam exercitationem labore!</p>
+    <div className={st.item__item}>
+      <h3 className={styles.heading}>{props.title}</h3>
+      <p>{props.text}</p>
     </div>
   )
 }

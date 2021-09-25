@@ -15,7 +15,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className={styles.contact}>
+      <div>
         <h2 className={styles.title}>{this.state.title}</h2>
 
         <ContactItem subtitle="Дата рождения" link="28.07.2000"/>

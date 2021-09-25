@@ -6,12 +6,8 @@ import Me from './Me/Me.jsx';
 const Left = () => {
   return (
     <div className={styles.left}>
-
-      <div className={styles.left__wrapper}>
-        <Me />
-
-        <Contact />
-      </div>
+      <Me />
+      <Contact />
     </div>
   )
 }

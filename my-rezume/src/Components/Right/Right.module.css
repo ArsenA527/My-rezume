@@ -1,11 +1,14 @@
 .right {
-  grid-area: right;
-  display: grid;
-  grid-template-rows: .1fr .2fr .2fr;
-  grid-template-areas:
-  "profile"
-  "achievements"
-  "education";
+  width: 100%;
+}
+
+.item {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.item__item {
+  margin-bottom: 20px;
 }
 
 .title {
