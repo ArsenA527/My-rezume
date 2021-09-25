@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import st from '../Right.module.css';
 import EducationItem from './EducationItem/EducationItem';
 
 class Education extends Component {
@@ -13,7 +14,7 @@ class Education extends Component {
   render() {
     return (
       <div>
-        <h2>{this.state.title}</h2>
+        <h2 className={st.title}>{this.state.title}</h2>
 
         <EducationItem />
       </div>

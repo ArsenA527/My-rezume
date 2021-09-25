@@ -26,3 +26,18 @@ img {
 .my__proffesion {
   font-size: 32px;
 }
+
+@media (max-width: 1024px) {
+  .me__photo {
+    height: 400px;
+  }
+
+  .me__fullname {
+    font-size: 32px;
+  }
+
+  .my__proffesion {
+    font-size: 24px;
+  }
+
+}
