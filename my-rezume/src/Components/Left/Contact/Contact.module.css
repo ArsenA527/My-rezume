@@ -1,0 +1,9 @@
+
+.contact {
+  grid-area: contact;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 28px;
+}

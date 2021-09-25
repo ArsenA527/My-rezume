@@ -1,3 +1,7 @@
+.me {
+  grid-area: me;
+}
+
 .me__photo {
   margin-bottom: 20px;
   width: 100%;
@@ -16,8 +20,9 @@ img {
 
 .me__fullname {
   margin-bottom: 10px;
+  font-size: 42px;
 }
 
 .my__proffesion {
-  font-size: 24px;
+  font-size: 32px;
 }

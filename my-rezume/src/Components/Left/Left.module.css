@@ -1,3 +1,13 @@
 .left {
   grid-area: left;
 }
+
+.left__wrapper {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-areas:
+  "me"
+  "contact";
+  row-gap: 50px;
+}
+

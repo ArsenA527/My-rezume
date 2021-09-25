@@ -4,7 +4,7 @@ import Right from './Components/Right/Right.jsx';
 
 function App() {
   return (
-    <div className="wripper">
+    <div className="wrapper">
       <div className="container">
         <Left />
         <Right />
