@@ -42,8 +42,9 @@
   .container {
     max-width: 500px;
     margin: 0 auto;
+    text-align: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 40% 1fr;
+    grid-template-rows: 0.7fr 1fr;
     grid-template-areas:
       "left"
       "right";

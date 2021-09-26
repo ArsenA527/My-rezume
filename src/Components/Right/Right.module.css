@@ -14,9 +14,3 @@
 .title {
   margin-bottom: 10px;
 }
-
-@media (max-width: 551px) {
-  .right {
-    row-gap: 50px;
-  }
-}

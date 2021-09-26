@@ -1,4 +1,5 @@
 .left {
+  max-width: 100%;
   grid-area: left;
 }
 
