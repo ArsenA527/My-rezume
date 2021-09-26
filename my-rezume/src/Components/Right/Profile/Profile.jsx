@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import st from '../Right.module.css';
-import styles from './Profile.module.css';
 
 class Profile extends Component {
   constructor(props) {
