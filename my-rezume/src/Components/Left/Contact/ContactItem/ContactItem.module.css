@@ -1,7 +1,0 @@
-.item:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-.subtitle {
-  margin-bottom: 10px;
-}
